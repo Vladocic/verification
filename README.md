@@ -3,6 +3,6 @@
 # В работе использовались:
 * регулярные выражения JavaScript
 
-# Демо
+# Форма регистрации v0.0.2
 https://vladocic.github.io/verification/
 
