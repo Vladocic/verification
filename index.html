@@ -25,11 +25,11 @@
                         <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+(?:-[А-ЯЁ][а-яё]+)?$" minlength="2" maxlength="20" placeholder="Имя" required />
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="email" name="name" pattern="^[a-z0-9][-_a-z0-9]+\.?[-_a-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$" placeholder="E-Mail" />
+                        <input class="form__input" type="email" name="name" pattern="^([a-z0-9_-]+\.)?[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" placeholder="E-Mail" />
                         <span class="form__error">e-mail в формате: sega@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="tel" name="name" placeholder="Телефон" pattern="^(?:\+|\d)[\d\-\(\) ]{9,}\d$" minlength="" maxlength="" />
+                        <input class="form__input" type="tel" name="name" placeholder="Телефон" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" minlength="" maxlength="" />
                         <span class="form__error">телефон в формате: +7 (123) 456-78-90</span>
                     </div>
                     <div class="form__field">
